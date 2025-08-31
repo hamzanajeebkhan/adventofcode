@@ -1,0 +1,28 @@
+{
+  "name": "adventofcode",
+  "version": "1.0.0",
+  "description": "Solution for Advent of Code Day 1",
+  "main": "Day 1/solve.js",
+  "scripts": {
+    "build": "npm run build --workspace=Day 1",
+    "start": "npm run start --workspace=Day 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^20.19.11",
+    "typescript": "^5.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hamzanajeebkhan/adventofcode.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hamzanajeebkhan/adventofcode/issues"
+  },
+  "homepage": "https://github.com/hamzanajeebkhan/adventofcode#readme",
+  "workspaces": [
+    "Day 1"
+  ]
+}
